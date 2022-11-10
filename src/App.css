@@ -13,3 +13,41 @@ body{
   font-family: 'SF Compact Display', sans-serif;
                                                 
 }
+.header{
+  height: 8vh;
+  width: 90vw;
+}
+a{
+  text-decoration: none;
+  color: var(--fontcolor);
+  padding-top: 1vh;
+  padding-left: 0.4vw;
+}
+a:hover{
+  color: var(--maincolor);
+  opacity: 90%;
+}
+.sidebar{
+  background-color: var(--maincolor) transparent;
+  height: 100vh;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  border-right: 0.7vh solid var(--maincolor);
+}
+
+.side-component > img{
+  height: 2rem;
+  width: 2rem;
+}
+
+.side-component{
+  padding: 3vh 2vw 3vh 2vw;
+  display: flex;
+  vertical-align: middle;
+}
+
+.head-comp{
+  padding: 0 2vw 0 2vw;
+  color: var(--maincolor);
+}
