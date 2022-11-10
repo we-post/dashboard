@@ -1,11 +1,13 @@
 import './App.css';
-import Sidebar from './components/sidebar';
+import Homepage from './pages/Homepage';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Sidebar/>
       </header>
+      <Homepage />
+      {/* <Card username="Sarang" desc="something"/> */}
     </div>
   );
 }
