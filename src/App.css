@@ -20,6 +20,7 @@ body{
   justify-content: center;
   align-items: center;
 }
+/* Paste your new css here */
 
 /* CARD */
 
@@ -121,4 +122,37 @@ body{
   color: var(--maincolor);
   background-color: var(--fontcolor);
 
+}
+
+/* Profile page */
+
+.profilecard_comp{
+  width:60vw;
+  border: 2px solid var(--maincolor);
+  border-radius: 5px;
+  display: flex;
+  gap:1px;
+  margin:1rem;
+  background-color: #333333;
+  padding:1rem;
+}
+.profilecard_top{
+  width:100%;
+  margin:0;
+  padding:0;
+  border: 2px solid var(--maincolor);
+
+}
+
+.profilecard_profile_img{
+  position: relative;
+  top:50%;
+  left:2rem;
+  background-color: var(--maincolor);
+  height:10rem;
+  width:10rem;
+  border-radius: 50%;
+  z-index: 1;
+  border: 2px solid var(--maincolor);
+  background-image: -webkit-linear-gradient(var(--maincolor), var(--fontcolor));
 }
