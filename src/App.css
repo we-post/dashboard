@@ -56,7 +56,6 @@ body{
 
 .card_profile_img{
   z-index: 3;
-
 }
 
 .card_profile_img{
@@ -78,7 +77,7 @@ body{
 }
 
 .card_buttons{
-  width:100%;
+  width:30%;
   display:flex;
   justify-content: space-around;
   align-items: center;
@@ -86,11 +85,16 @@ body{
   margin:5px;
 }
 
-
 .user_name{
   margin:5px;
   margin-bottom: -5px;
 }
+
+.card_title{
+  color:var(--fontcolor);
+  margin:1rem 0rem -0.6rem 1rem;
+}
+
 .user_desc{
   font-size: 12px;
   font-weight: 200;
@@ -109,20 +113,23 @@ body{
   font-weight: bold;
   padding:8px 15px;
   width:6rem;
-  border-radius: 10px;
+  border-radius: 50px;
   border: 1px solid var(--maincolor);
   color: var(--fontcolor);
   background-color: var(--maincolor);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   transition: all 100ms linear;
   text-transform: capitalize;
+  cursor: pointer;
 }
 
 .card_btn:hover{
   color: var(--maincolor);
   background-color: var(--fontcolor);
-
 }
+
+/* sidewar */
+
 .header{
   height: 8vh;
 }
@@ -161,7 +168,88 @@ a:hover{
   padding: 0 2vw 0 2vw;
   color: var(--maincolor);
 }
+/* homepage */
 .homepage-comp{
+  display: flex; 
+}
+
+.card_btn_dislike:nth-last-child(1):hover{
+  background-color: transparent;
+}
+
+/* profile */
+
+.profilecard_comp{
+  width:60vw;
+  border: 2px solid var(--maincolor);
+  border-radius: 5px;
   display: flex;
-  
+  gap:1px;
+  margin:1rem;
+  background-color:#333333;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.profilecard_top{
+  border-radius: 5px 5px 0 0px;
+  background-image: linear-gradient(90deg, var(--maincolor), var(--fontcolor));
+  margin:0;
+  padding: 0;
+  height:10rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.profilecard_profile_img{
+  position: relative;
+  top:50%;
+  width:10rem;
+  left:2rem;
+  border: 5px solid var(--fontcolor);
+  border-radius: 50%;
+}
+.profile_follow_btn{
+  cursor: pointer;
+  position: relative;
+  top:3rem;
+  right:1rem;
+  font-weight: bold;
+  /* font-size: 1.0rem; */
+  padding:8px 15px;
+  width:7rem;
+  height:2rem;
+  border-radius: 50px;
+  border: 2px solid var(--maincolor);
+  color: var(--fontcolor);
+  background-color: transparent;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;transition: all 100ms linear;
+  text-transform: capitalize;
+}
+
+.profile_follow_btn:hover{
+  color:var(--maincolor);
+  background-color: var(--fontcolor);
+}
+
+.profilecard_bottom{
+  padding:1rem;
+}
+
+.profile_name{
+  font-size: 1.5rem;
+}
+
+.profile_userid{
+  margin-top:2px;
+  font-size: 0.7rem;
+  color: var(--accentfontcolor);
+}
+
+.profile_bio{
+  margin:1rem 0;
+
 }

@@ -13,11 +13,12 @@ function Card(props) {
                 </div>
                 <div className='card_content'>
                     <div className='user_name'>{props.username} <span className='card_userid'> @{props.userid}</span></div>
+                    <div className="card_title">{props.title}</div>
                     <div className='user_desc'>{props.desc}</div>
                     <div className='card_buttons'>
                         <button className="card_btn">Like</button>
-                        <button className="card_btn">Dislike</button>
-                        <button className="card_btn">Upvote</button>
+                        <button className="card_btn card_btn_dislike">Dislike</button>
+                        {/* <button className="card_btn">Upvote</button> */}
                     </div>
                 </div>
             </div>
