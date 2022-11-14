@@ -48,9 +48,9 @@ const Profile = () => {
 
 
                     //success: but only 1 gets printed
-                    console.log(j);
+                    // console.log(j);
                     return (
-                        <Card
+                        <Card className="centered"
                             username={file[i].username}
                             userid={file[i].userid}
                             desc={file[i].posts[j].description}
@@ -82,12 +82,12 @@ const Profile = () => {
     }
 
     return (
-
-        <div>
+        <>
             <ProfileCard userid={userid} username={username} bio={bio} />
+            <div className='profile_tweets'>
             {search_post(userid, UserData)}
-            { }
-        </div>
+            </div>
+        </>
     )
 }
 

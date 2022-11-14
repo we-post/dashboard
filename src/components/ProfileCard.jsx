@@ -4,7 +4,7 @@ import user_pic1 from "../images/user_profile/sanjay.png"
 
 const ProfileCard = (props) => {
     return (
-        <div className="comp_center">
+        <div className="centered">
             <div className='profilecard_comp'>
                 <div className="profilecard_top">
                     <img className='profilecard_profile_img' src={user_pic1} alt="user rofile"></img>

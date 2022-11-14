@@ -3,13 +3,14 @@ import Card from '../components/Card'
 import Sidebar from '../components/Sidebar';
 import Header from '../components/Header';
 
+
 const Homepage = () => {
   return (
-    <div>
-      <Header/>
+    <>
+      <Header />
       <div className="homepage-comp">
         <Sidebar />
-        <div className='card-section'>
+        <div className='centered'>
           <Card
             username="Sarang"
             userid="PES1UG21CS444"
@@ -42,7 +43,7 @@ const Homepage = () => {
           />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

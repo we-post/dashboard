@@ -5,9 +5,8 @@ import Tweet from './pages/Tweet';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Homepage />
-      {/* <Card username="Sarang" desc="something"/> */}
       <Profile />
       <Tweet />
     </div>
