@@ -1,5 +1,6 @@
 import './App.css';
 import Homepage from './pages/Homepage';
+// import Profile from './pages/Profile';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       </header>
       <Homepage />
       {/* <Card username="Sarang" desc="something"/> */}
+      {/* <Profile /> */}
     </div>
   );
 }
