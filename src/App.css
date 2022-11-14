@@ -422,7 +422,8 @@ a:hover {
 .tweet_wordcount{
   font-size: 0.8rem;
   font-family: 'SF Compact Display', sans-serif;
-=======
+}
+
 .card-section{
   padding-left: 200px;
 }
@@ -432,5 +433,4 @@ a:hover {
 .card_title{
   color:var(--fontcolor);
   margin:1rem 0rem -0.6rem 1rem;
->>>>>>> e80f972c35b7b4e8db2b7bde9b7fa43debe51e0e
 }
