@@ -1,14 +1,18 @@
-import React from 'react'
+import React, { useEffect} from 'react'
 import ProfileCard from '../components/ProfileCard'
 import { UserData } from "../userdetails"
 import Card from '../components/Card'
 
 const Profile = () => {
-
+    // const [post, setPost] =useState([]);
     const username = "Samar";
-    const userid = "PES1UG21CS666";
+    const userid = "PES1UG21CS555";
     const bio = "No bio for this id"
 
+
+    useEffect(()=>{
+        
+    })
     // function calling_card(name, id, desc, profile_img) {
     //     return (
     //         <Card
@@ -56,17 +60,22 @@ const Profile = () => {
                     )
 
 
-                    // console.log(file[i].posts[j].title);
-
-                    // { (file[i].posts).map((user) => {
-                    //     // console.log(j);
-                    //         return(<Card
-                    //                 username={username}
-                    //                 userid={userid}
-                    //                 desc={user.description}
-                    //                 userimg={"../images/user_profile/panda.png"}
-                    //             />)
-                    //     })}
+                    // {
+                    //     (file[i].posts).map((user, username, userid) => {
+                    //         const { title, description, likes, dislikes } = file[i].posts;
+                    //         return (
+                    //             // <div key={userid}>
+                    //                 <Card
+                    //                     username={username}
+                    //                     userid={userid}
+                    //                     title={title}
+                    //                     desc={description}
+                    //                     userimg={"../images/user_profile/panda.png"}
+                    //                 />
+                    //             // </div>
+                    //         )
+                    //     })
+                    // }
                 }
             }
         }
