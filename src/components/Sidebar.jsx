@@ -1,12 +1,9 @@
 import "../App.css";
 import React from "react";
 
+
 const Sidebar = () => {
   return (
-    <div className="head-side">
-      <div className="header">
-        <h1 className="head-comp">We-Post.</h1>
-      </div>
       <div className="sidebar">
         <div className="side-component">
           <img
@@ -37,7 +34,6 @@ const Sidebar = () => {
           <a href="*">Logout</a>
         </div>
       </div>
-    </div>
   );
 };
 
