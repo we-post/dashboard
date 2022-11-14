@@ -3,7 +3,8 @@
 :root {
   padding: 0;
   margin: 0;
-  --bgcolor: #2B2B2B;
+  --bgaccentcolor: #2B2B2B;
+  --bgcolor: #121212;
   --fontcolor: #FBFAF5;
   --accentfontcolor: rgb(142, 142, 142);
   --maincolor: #51BBFB;
@@ -341,13 +342,11 @@ a:hover {
 
 .profile_bio {
   margin: 1rem 0;
-  
 }
 
 /* Tweet */
 
 .tweet_comp{
-
   margin: 1rem;
   width: 60vw;
   border: 2px solid var(--maincolor);
@@ -364,9 +363,6 @@ a:hover {
 }
 
 
-.tweet_title{
-  /* background-color: #51BBFB; */
-}
 
 .tweet_desc{
   /* background-color: #f0f0f0; */
@@ -375,10 +371,13 @@ a:hover {
 
 .tweet_btns{
   display: flex;
-  /* background-color: red; */
-  justify-content: space-between;
+  transition: all 100ms linear;justify-content: space-between;
   align-items: center;
   padding:0 2rem;
+}
+
+.tweet_input_submit:hover{
+  background-color: transparent;
 }
 
 .tweet_input_desc, .tweet_input_text{
@@ -392,19 +391,20 @@ a:hover {
   color:#fff;
   font-weight: bold;
   padding: 8px 15px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
 
 .tweet_input_desc{
   height:100px;
   resize: none;
-  /* column-span:40px; */
+  font-weight:300;
 }
 
 .tweet_input_submit{
   display: block;
   outline:none;
   cursor:pointer;
-  background-color: var(--bgcolor);
+  background-color: var(--maincolor);
   outline:none;
   border: 2px solid var(--maincolor);
   border-radius: 5px;
@@ -427,9 +427,11 @@ a:hover {
 .card-section{
   padding-left: 200px;
 }
+
 .head-side{
   display: block;
 }
+
 .card_title{
   color:var(--fontcolor);
   margin:1rem 0rem -0.6rem 1rem;

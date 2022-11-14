@@ -13,7 +13,7 @@ function TweetCard() {
 
     return (
         <div className="comp_center">
-            <form className="tweet_comp">
+            <form className="tweet_comp" action='/' method="POST">
                 <div className="tweet_title">
                     <div className="tweet_title_text">
                         <input className="tweet_input_text" type="text" placeholder="Title"/>
