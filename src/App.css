@@ -137,12 +137,14 @@ a:hover{
 }
 .sidebar{
   background-color: var(--maincolor) transparent;
+  display: block;
   position: fixed;
   height: 100%;
   width: 15vw;
   display: flex;
   flex-direction: column;
   border-right: 0.7vh transparent var(--maincolor);
+  padding: 4vh 0 0 0;
 }
 
 .side-component > img{
@@ -159,8 +161,19 @@ a:hover{
 .head-comp{
   padding: 0 2vw 0 2vw;
   color: var(--maincolor);
+  position: fixed;
 }
 .homepage-comp{
   display: flex;
   
+}
+.card-section{
+  padding-left: 200px;
+}
+.head-side{
+  display: block;
+}
+.card_title{
+  color:var(--fontcolor);
+  margin:1rem 0rem -0.6rem 1rem;
 }
