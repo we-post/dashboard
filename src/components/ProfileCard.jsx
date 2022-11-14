@@ -1,5 +1,5 @@
 import React from 'react'
-import user_pic1 from "../images/user_profile/fox.png"
+import user_pic1 from "../images/user_profile/sanjay.png"
 
 
 const ProfileCard = (props) => {

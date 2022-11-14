@@ -1,17 +1,19 @@
 import './App.css';
 import Homepage from './pages/Homepage';
-// import Profile from './pages/Profile';
+import Profile from './pages/Profile';
+import Tweet from './pages/Tweet';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
       <Homepage />
       {/* <Card username="Sarang" desc="something"/> */}
-      {/* <Profile /> */}
+      <Profile />
+      <Tweet />
     </div>
   );
 }
 
 export default App;
+
+
