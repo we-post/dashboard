@@ -1,5 +1,5 @@
 // import user_pic1 from "../images/user_profile/fox.png"
-import user_pic2 from "../images/user_profile/panda.png"
+// import user_pic2 from "../images/user_profile/tiger.png"
 
 function Card(props) {
     return (
@@ -7,7 +7,7 @@ function Card(props) {
             <div className='card_comp'>
                 <div className='card_profile'>
                     {/* <div className='card_profile_block'> */}
-                    <img className="card_profile_img" src={user_pic2} alt=""></img>
+                    <img className="card_profile_img" src={props.image} alt=""></img>
                     {/* </div> */}
                     <div className="card_verticalline"></div>
                 </div>

@@ -119,7 +119,7 @@ body {
   padding: 8px 15px;
   width: 6rem;
   border-radius: 10px;
-  border: 1px solid var(--maincolor);
+  border: 2px solid var(--maincolor);
   color: var(--fontcolor);
   background-color: var(--maincolor);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -435,11 +435,6 @@ a:hover {
   font-family: 'SF Compact Display', sans-serif;
 }
 
-.card-section{
-  /* padding-left: 180px;
-  padding-top: 50px ; */
-}
-
 
 .head-side{
   display: block;
@@ -453,4 +448,5 @@ a:hover {
 .centered{
   padding-left: 180px;
   padding-top: 50px ;
+  display:inline-block;
 }
